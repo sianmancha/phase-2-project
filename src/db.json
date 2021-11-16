@@ -101,7 +101,134 @@
             "name": "Critical", 
             "image": "",
             "baseMood": "Mad" 
-        },     
+        },
+        {
+            "id": 22,
+            "name": "Sad", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 23,
+            "name": "Guilty", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 24,
+            "name": "Ashamed", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 25,
+            "name": "Depressed", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 26,
+            "name": "Lonely", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 27,
+            "name": "Bored", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 28,
+            "name": "Sleepy", 
+            "image": "",
+            "baseMood": "Sad" 
+        },
+        {
+            "id": 29,
+            "name": "Peaceful", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 30,
+            "name": "Content", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 31,
+            "name": "Thoughtful", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 32,
+            "name": "Intimate", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 33,
+            "name": "Loving", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 34,
+            "name": "Trusting", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 35,
+            "name": "Nurturing", 
+            "image": "",
+            "baseMood": "Peaceful" 
+        },
+        {
+            "id": 36,
+            "name": "Powerful", 
+            "image": "",
+            "baseMood": "Powerful" 
+        },
+        {
+            "id": 37,
+            "name": "Faithful", 
+            "image": "",
+            "baseMood": "Powerful" 
+        },
+        {
+            "id": 38,
+            "name": "Important", 
+            "image": "",
+            "baseMood": "Powerful" 
+        },
+        {
+            "id": 39,
+            "name": "Hopeful", 
+            "image": "",
+            "baseMood": "Powerful" 
+        },
+        {
+            "id": 40,
+            "name": "Appreciated", 
+            "image": "",
+            "baseMood": "Powerful" 
+        },
+        {
+            "id": 41,
+            "name": "Respected", 
+            "image": "",
+            "baseMood": "Powerful" 
+        },
+        {
+            "id": 42,
+            "name": "Proud", 
+            "image": "",
+            "baseMood": "Powerful" 
+        }
+             
 
 
     ],
