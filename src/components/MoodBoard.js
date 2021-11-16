@@ -5,6 +5,7 @@ function MoodBoard () {
     return (
         <div>
             Mood Board
+            <MoodForm />
         </div>
     )
 }

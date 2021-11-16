@@ -6,6 +6,8 @@ function ToDoList() {
     return (
         <div>
             To-Do List
+            <ToDoForm />
+            <Search />
         </div>
     )
 }

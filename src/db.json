@@ -1,0 +1,113 @@
+{
+    "moods": [
+      { "id": 1,
+        "name": "Joyful", 
+        "image": "", 
+        "baseMood": "Joyful"}, 
+        { "id": 2,
+            "name": "Excited", 
+            "image": "",
+            "baseMood": "Joyful"},
+        { "id": 3,
+            "name": "Energetic", 
+            "image": "",
+            "baseMood": "Joyful" },      
+        { "id": 4,
+            "name": "Playful", 
+             "image": "", 
+             "baseMood": "Joyful" },
+        { "id": 5,
+            "name": "Creative", 
+            "image": "", 
+            "baseMood": "Joyful" },
+        { "id": 6,
+            "name": "Aware", 
+            "image": "",
+            "baseMood": "Joyful" },
+        { "id": 7,
+            "name": "Sexy", 
+            "image": "",
+            "baseMood": "Joyful" },
+        { "id": 8,
+            "name": "Scared", 
+            "image": "",
+            "baseMood": "Scared" }, 
+        { "id": 9,
+            "name": "Rejected", 
+            "image": "",
+            "baseMood": "Scared" }, 
+        { "id": 10,
+            "name": "Confused", 
+            "image": "",
+            "baseMood": "Scared" }, 
+        { "id": 11,
+            "name": "Helpless", 
+            "image": "",
+            "baseMood": "Scared" },
+        { "id": 12,
+            "name": "Submissive", 
+            "image": "",
+            "baseMood": "Scared" },
+        {
+            "id": 13,
+            "name": "Insecure", 
+            "image": "",
+            "baseMood": "Scared" 
+        },
+        { 
+            "id": 14,
+            "name": "Anxious", 
+            "image": "",
+            "baseMood": "Scared" 
+        },
+        { 
+            "id": 15,
+            "name": "Mad", 
+             "image": "",
+             "baseMood": "Mad" 
+        }, 
+        { 
+            "id": 16,
+            "name": "Hurt", 
+            "image": "",
+            "baseMood": "Hurt" 
+        },
+        {
+            "id": 17,
+            "name": "Hostile", 
+            "image": "",
+            "baseMood": "Mad" 
+        },
+        {
+            "id": 18,
+            "name": "Angry", 
+            "image": "",
+            "baseMood": "Mad" 
+        }, 
+        {
+            "id": 19,
+            "name": "Rage", 
+            "image": "",
+            "baseMood": "Mad" 
+        }, 
+        {
+            "id": 20,
+            "name": "Hateful", 
+            "image": "",
+            "baseMood": "Mad" 
+        },
+        {
+            "id": 21,
+            "name": "Critical", 
+            "image": "",
+            "baseMood": "Mad" 
+        },     
+
+
+    ],
+    "todos": [
+      { "id": 1, 
+        "body": "some comment", 
+        "postId": 1 }
+    ]
+  }
