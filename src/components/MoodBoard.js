@@ -12,12 +12,16 @@ function MoodBoard () {
     }, [])
     console.log(moods)
 
+    function handleAddMood(newMood) {
+        setMoods([...moods, newMood])
+    }
+
     const displayMoods = moods.map(mood => <MoodCard key={mood.id } mood={mood} /> )
 
     return (
         <div>
             <h1>Mood Board</h1>
-            <MoodForm />
+            <MoodForm handleAddMood= {handleAddMood}/>
             {displayMoods}
             
             

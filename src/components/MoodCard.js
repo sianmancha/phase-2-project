@@ -4,8 +4,8 @@ function MoodCard({mood: {id, name, icon, baseMood}}) {
     
     return (
         <div className="card">
-            {name}
             {icon}
+            {name}
         </div>
     )
 }

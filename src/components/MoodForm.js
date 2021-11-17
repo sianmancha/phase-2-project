@@ -1,13 +1,13 @@
 import react, {useState} from "react";
 
-function MoodForm() {
+function MoodForm({handleAddMood}) {
     const [name, setName] = useState("");
     const [icon, setIcon] = useState("");
 
     function handleSubmit(e) {
         e.preventDefault()
         const moodData = {
-            mood: name, 
+            name: name, 
             icon: icon
         }
         fetch("http://localhost:6001/moods", {
@@ -18,15 +18,30 @@ function MoodForm() {
         })
         .then(res => res.json())
         .then(newMood => handleAddMood(newMood))
+
+        setName("")
+        setIcon("")
     }
 
     return (
         <div> 
             <h3>Add a Custom Mood</h3>
             <div>
-            <form onSubmit={(e) => handleSubmit(e, formData)}>
-                <input type="text" placeholder="Mood Name" name="mood"></input>
-                <input type="text" placeholder="Emoji" name="icon"></input>
+            <form onSubmit={(e) => handleSubmit(e)}>
+                <input 
+                    type="text" 
+                    placeholder="Mood Name" 
+                    name="name" value={name} 
+                    onChange={(e) => setName(e.target.value)}
+                >
+                </input>
+                <input 
+                    type="text" 
+                    placeholder="Emoji" 
+                    name="icon" value={icon} 
+                    onChange={(e) => setIcon(e.target.value)}
+                >
+                </input>
                 <input type="submit" value="Add Mood"></input>
             </form>
             </div>

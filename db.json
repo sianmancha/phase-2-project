@@ -1,240 +1,264 @@
 {
-    "moods": [
-      { "id": 1,
-        "name": "Joyful", 
-        "icon": "", 
-        "baseMood": "Joyful"}, 
-        { "id": 2,
-            "name": "Excited", 
-            "icon": "",
-            "baseMood": "Joyful"},
-        { "id": 3,
-            "name": "Energetic", 
-            "icon": "",
-            "baseMood": "Joyful" },      
-        { "id": 4,
-            "name": "Playful", 
-             "icon": "", 
-             "baseMood": "Joyful" },
-        { "id": 5,
-            "name": "Creative", 
-            "icon": "", 
-            "baseMood": "Joyful" },
-        { "id": 6,
-            "name": "Aware", 
-            "icon": "",
-            "baseMood": "Joyful" },
-        { "id": 7,
-            "name": "Sexy", 
-            "icon": "",
-            "baseMood": "Joyful" },
-        { "id": 8,
-            "name": "Scared", 
-            "icon": "",
-            "baseMood": "Scared" }, 
-        { "id": 9,
-            "name": "Rejected", 
-            "icon": "",
-            "baseMood": "Scared" }, 
-        { "id": 10,
-            "name": "Confused", 
-            "icon": "",
-            "baseMood": "Scared" }, 
-        { "id": 11,
-            "name": "Helpless", 
-            "icon": "",
-            "baseMood": "Scared" },
-        { "id": 12,
-            "name": "Submissive", 
-            "icon": "",
-            "baseMood": "Scared" },
-        {
-            "id": 13,
-            "name": "Insecure", 
-            "icon": "",
-            "baseMood": "Scared" 
-        },
-        { 
-            "id": 14,
-            "name": "Anxious", 
-            "icon": "",
-            "baseMood": "Scared" 
-        },
-        { 
-            "id": 15,
-            "name": "Mad", 
-             "icon": "",
-             "baseMood": "Mad" 
-        }, 
-        { 
-            "id": 16,
-            "name": "Hurt", 
-            "icon": "",
-            "baseMood": "Hurt" 
-        },
-        {
-            "id": 17,
-            "name": "Hostile", 
-            "icon": "",
-            "baseMood": "Mad" 
-        },
-        {
-            "id": 18,
-            "name": "Angry", 
-            "icon": "",
-            "baseMood": "Mad" 
-        }, 
-        {
-            "id": 19,
-            "name": "Rage", 
-            "icon": "",
-            "baseMood": "Mad" 
-        }, 
-        {
-            "id": 20,
-            "name": "Hateful", 
-            "icon": "",
-            "baseMood": "Mad" 
-        },
-        {
-            "id": 21,
-            "name": "Critical", 
-            "icon": "",
-            "baseMood": "Mad" 
-        },
-        {
-            "id": 22,
-            "name": "Sad", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 23,
-            "name": "Guilty", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 24,
-            "name": "Ashamed", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 25,
-            "name": "Depressed", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 26,
-            "name": "Lonely", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 27,
-            "name": "Bored", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 28,
-            "name": "Sleepy", 
-            "icon": "",
-            "baseMood": "Sad" 
-        },
-        {
-            "id": 29,
-            "name": "Peaceful", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 30,
-            "name": "Content", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 31,
-            "name": "Thoughtful", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 32,
-            "name": "Intimate", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 33,
-            "name": "Loving", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 34,
-            "name": "Trusting", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 35,
-            "name": "Nurturing", 
-            "icon": "",
-            "baseMood": "Peaceful" 
-        },
-        {
-            "id": 36,
-            "name": "Powerful", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        },
-        {
-            "id": 37,
-            "name": "Faithful", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        },
-        {
-            "id": 38,
-            "name": "Important", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        },
-        {
-            "id": 39,
-            "name": "Hopeful", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        },
-        {
-            "id": 40,
-            "name": "Appreciated", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        },
-        {
-            "id": 41,
-            "name": "Respected", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        },
-        {
-            "id": 42,
-            "name": "Proud", 
-            "icon": "",
-            "baseMood": "Powerful" 
-        }
-             
-
-
-    ],
-    "todos": [
-      { "id": 1, 
-        "description": "Your to-do list item is displayed here", 
-        "category": "" }
-    ]
-  }
+  "moods": [
+    {
+      "id": 1,
+      "name": "Joyful",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 2,
+      "name": "Excited",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 3,
+      "name": "Energetic",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 4,
+      "name": "Playful",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 5,
+      "name": "Creative",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 6,
+      "name": "Aware",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 7,
+      "name": "Sexy",
+      "icon": "",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 8,
+      "name": "Scared",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 9,
+      "name": "Rejected",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 10,
+      "name": "Confused",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 11,
+      "name": "Helpless",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 12,
+      "name": "Submissive",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 13,
+      "name": "Insecure",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 14,
+      "name": "Anxious",
+      "icon": "",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 15,
+      "name": "Mad",
+      "icon": "",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 16,
+      "name": "Hurt",
+      "icon": "",
+      "baseMood": "Hurt"
+    },
+    {
+      "id": 17,
+      "name": "Hostile",
+      "icon": "",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 18,
+      "name": "Angry",
+      "icon": "",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 19,
+      "name": "Rage",
+      "icon": "",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 20,
+      "name": "Hateful",
+      "icon": "",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 21,
+      "name": "Critical",
+      "icon": "",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 22,
+      "name": "Sad",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 23,
+      "name": "Guilty",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 24,
+      "name": "Ashamed",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 25,
+      "name": "Depressed",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 26,
+      "name": "Lonely",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 27,
+      "name": "Bored",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 28,
+      "name": "Sleepy",
+      "icon": "",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 29,
+      "name": "Peaceful",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 30,
+      "name": "Content",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 31,
+      "name": "Thoughtful",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 32,
+      "name": "Intimate",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 33,
+      "name": "Loving",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 34,
+      "name": "Trusting",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 35,
+      "name": "Nurturing",
+      "icon": "",
+      "baseMood": "Peaceful"
+    },
+    {
+      "id": 36,
+      "name": "Powerful",
+      "icon": "",
+      "baseMood": "Powerful"
+    },
+    {
+      "id": 37,
+      "name": "Faithful",
+      "icon": "",
+      "baseMood": "Powerful"
+    },
+    {
+      "id": 38,
+      "name": "Important",
+      "icon": "",
+      "baseMood": "Powerful"
+    },
+    {
+      "id": 39,
+      "name": "Hopeful",
+      "icon": "",
+      "baseMood": "Powerful"
+    },
+    {
+      "id": 40,
+      "name": "Appreciated",
+      "icon": "",
+      "baseMood": "Powerful"
+    },
+    {
+      "id": 41,
+      "name": "Respected",
+      "icon": "",
+      "baseMood": "Powerful"
+    },
+    {
+      "id": 42,
+      "name": "Proud",
+      "icon": "",
+      "baseMood": "Powerful"
+    }
+  ],
+  
+  "todos": [
+    {
+      "id": 1,
+      "description": "Your to-do list item is displayed here",
+      "category": ""
+    }
+  ]
+}
