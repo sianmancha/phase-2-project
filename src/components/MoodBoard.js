@@ -4,8 +4,10 @@ import MoodForm from "./MoodForm";
 function MoodBoard () {
     return (
         <div>
-            Mood Board
+            <h1>Mood Board</h1>
             <MoodForm />
+            
+            
         </div>
     )
 }

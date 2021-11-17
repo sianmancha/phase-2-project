@@ -234,7 +234,7 @@
     ],
     "todos": [
       { "id": 1, 
-        "body": "some comment", 
-        "postId": 1 }
+        "description": "Your to-do list item is displayed here", 
+        "category": "" }
     ]
   }
