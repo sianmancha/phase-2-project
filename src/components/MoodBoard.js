@@ -32,7 +32,9 @@ function MoodBoard () {
             <div>
                 <h1 className="title">Mood Board</h1>
                 <MoodForm handleAddMood= {handleAddMood}/>
-                {displayMoods}
+                <div className="flex-box">
+                    {displayMoods}
+                </div>
             </div>
             <div>
                 {recordedMoods}
