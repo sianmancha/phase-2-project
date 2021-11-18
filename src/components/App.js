@@ -9,15 +9,14 @@ function App() {
     <div>
       <Header />
       <Routes>
-          <Route exact path="/moodboard">
-            <MoodBoard />
-          </Route>
-          <Route exact path="/to-do-list">
-            <ToDoList />
-          </Route>
+          <Route exact path="/moodboard" element={<MoodBoard />}/>
+
+          <Route exact path="/to-do-list" element={<ToDoList />}/>
+
       </Routes>
     </div>
   );
 }
+
 
 export default App;

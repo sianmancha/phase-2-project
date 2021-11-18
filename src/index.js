@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import { BrowserRouter, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 ReactDOM.render(
   <BrowserRouter>
-    <Route exact path="/">
-      <App />
-    </Route>
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );

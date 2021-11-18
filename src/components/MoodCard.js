@@ -1,17 +1,16 @@
 import React, {useState} from "react";
 
-function MoodCard({mood: {id, name, icon, baseMood}, handleRecordMood}) {
+function MoodCard({mood: {id, name, icon, baseMood}, handleRecordMood, mood}) {
     
     const [aMood, setAMood] = useState([])
 
 
-// function hasAName() {
-
-//     handleRecordMood(aMood)
+// function hasAName(id) {
+//     setAMood()
 // }
 
     return (
-        <div className="card" onClick={handleRecordMood}>
+        <div className="card" onClick={() => handleRecordMood(mood)}>
             {icon}
             {name}
         </div>
