@@ -18,12 +18,12 @@ function MoodBoard () {
         setMoods([...moods, newMood])
     }
 
-    function handleRecordMood(aMood) {
+    function handleAddRecord(aMood) {
         console.log(aMood)
         setListedMoods([...listedMoods, aMood])
     }
     
-    const displayMoods = moods.map(mood => <MoodCard key={mood.id} mood={mood} handleRecordMood={handleRecordMood} /> )
+    const displayMoods = moods.map(mood => <MoodCard key={mood.id} mood={mood} handleAddRecord={handleAddRecord} /> )
 
     const recordedMoods = listedMoods.map(listedMood => <MoodRecord key={listedMood.id} mood={listedMood} setListedMoods={setListedMoods}/>)
 

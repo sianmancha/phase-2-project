@@ -251,6 +251,26 @@
       "name": "Proud",
       "icon": "😉",
       "baseMood": "Powerful"
+    },
+    {
+      "name": "Test",
+      "icon": "😊",
+      "id": 43
+    },
+    {
+      "name": "Test",
+      "icon": "😊",
+      "id": 44
+    },
+    {
+      "name": "Test",
+      "icon": "😝",
+      "id": 45
+    },
+    {
+      "name": "Please",
+      "icon": "🥳",
+      "id": 46
     }
   ],
   "todos": [
@@ -258,6 +278,53 @@
       "description": "Your to-do's will be displayed here",
       "category": "Category",
       "id": 1
+    }
+  ],
+  "recordedMoods": [
+    {
+      "id": 1,
+      "name": "",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "name": "Energetic",
+      "icon": "💃",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 21,
+      "name": "Critical",
+      "icon": "😑",
+      "baseMood": "Mad"
+    },
+    {
+      "id": 4,
+      "name": "Playful",
+      "icon": "🤭",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 2,
+      "name": "Excited",
+      "icon": "🤩",
+      "baseMood": "Joyful"
+    },
+    {
+      "id": 5,
+      "name": "Creative",
+      "icon": "🎨",
+      "baseMood": "Joyful"
+    },
+    {
+      "name": "Please",
+      "icon": "🥳",
+      "id": 46
+    },
+    {
+      "name": "Test",
+      "icon": "😝",
+      "id": 45
     }
   ]
 }

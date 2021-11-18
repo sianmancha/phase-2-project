@@ -1,16 +1,28 @@
 import React, {useState} from "react";
 
-function MoodCard({mood: {id, name, icon, baseMood}, handleRecordMood, mood}) {
+function MoodCard({mood: {id, name, icon, baseMood}, handleAddRecord, mood}) {
     
     const [aMood, setAMood] = useState([])
 
 
-// function hasAName(id) {
-//     setAMood()
-// }
+    function handleAddClick(mood) {
+        // const recordData = {
+        //     name: name, 
+        //     icon: icon
+        // }
+        
+        fetch("http://localhost:6001/recordedMoods", {
+                method: "POST",
+                headers: {"Content-Type": "application/json", 
+            }, 
+                body: JSON.stringify(mood),
+            })
+            .then(res => res.json())
+            .then(newRecord => handleAddRecord(newRecord))
+    }
 
     return (
-        <div className="card" onClick={() => handleRecordMood(mood)}>
+        <div className="card" onClick={() => handleAddClick(mood)}>
             {icon}
             {name}
         </div>

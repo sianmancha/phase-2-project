@@ -1,10 +1,10 @@
 import React from 'react';
 
-function MoodRecord({mood: {name, icon}, setListedMoods}) {
+function MoodRecord({mood: {name, icon} }) {
+
     return(
         <div>
-            {name}
-            {icon}
+           <a title={name} >{icon}</a>
             {/* figure out Date.now() */}
         </div>
     )
