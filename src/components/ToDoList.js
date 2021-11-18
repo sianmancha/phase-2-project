@@ -12,12 +12,16 @@ function ToDoList() {
         .then(data => setTodos(data))
     }, [])
 
+    function handleAddTodos(newTodo) {
+        setTodos([...todos, newTodo])
+    }
+
     const displayTodos = todos.map(todo => <ToDoCard key={todo.id} todo={todo} /> )
 
     return (
         <div>
             To-Do List
-            <ToDoForm />
+            <ToDoForm handleAddTodos={handleAddTodos}/>
             <Search />
             {displayTodos}
         </div>
