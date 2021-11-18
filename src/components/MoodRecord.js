@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MoodRecord({mood: {name, icon}}) {
+function MoodRecord({mood: {name, icon}, setListedMoods}) {
     return(
         <div>
             {name}

@@ -16,7 +16,12 @@ function ToDoList() {
         setTodos([...todos, newTodo])
     }
 
-    const displayTodos = todos.map(todo => <ToDoCard key={todo.id} todo={todo} /> )
+    function handleDeletedItem(id) {
+        const updatedToDos = todos.filter((todo) => todo.id !== id)
+        setTodos(updatedToDos)
+    }
+
+    const displayTodos = todos.map(todo => <ToDoCard key={todo.id} todo={todo} handleDeletedItem={handleDeletedItem} /> )
 
     return (
         <div>

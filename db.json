@@ -255,11 +255,9 @@
   ],
   "todos": [
     {
-      "id": 1,
-      "description": "Your to-do list item is displayed here",
-      "category": "Example"
+      "description": "Your to-do's will be displayed here",
+      "category": "Category",
+      "id": 1
     }
-   
-     
   ]
 }
