@@ -1,6 +1,17 @@
+
+body {
+    margin: 0;
+}
+
 .header {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    background-color: lightgrey;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 25px;
 }
 .title {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
@@ -24,4 +35,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
   }
+
+.navbar {
+    width: auto;
+    align-items: center;
+    /* figure out margins */
+    margin: 0% 25% 25% 0%;
+}

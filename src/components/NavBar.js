@@ -4,23 +4,24 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
     display: "inline-block",
-    width: "50px",
-    padding: "12px",
+    width: "auto",
+    padding: "10px 20px",
     margin: "0 6px 6px",
-    background: "blue",
+    background: "pink",
     textDecoration: "none",
     color: "white",
+    fontWeight: "bold",
   };
   
   function NavBar() {
     return (
-      <div>
+      <div className="navbar">
         <NavLink
           to="/"
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "turquoise",
           }}
         >
           Home
@@ -30,7 +31,7 @@ const linkStyles = {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "turquoise",
           }}
         >
           Mood Board
@@ -40,7 +41,7 @@ const linkStyles = {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "turquoise",
           }}
         >
           To-Do List 
