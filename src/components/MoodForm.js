@@ -31,14 +31,16 @@ function MoodForm({handleAddMood}) {
                 <input 
                     type="text" 
                     placeholder="Mood Name" 
-                    name="name" value={name} 
+                    name="name" 
+                    value={name} 
                     onChange={(e) => setName(e.target.value)}
                 >
                 </input>
                 <input 
                     type="text" 
                     placeholder="Emoji" 
-                    name="icon" value={icon} 
+                    name="icon" 
+                    value={icon} 
                     onChange={(e) => setIcon(e.target.value)}
                 >
                 </input>
