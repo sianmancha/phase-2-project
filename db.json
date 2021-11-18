@@ -325,6 +325,24 @@
       "name": "Test",
       "icon": "😝",
       "id": 45
+    },
+    {
+      "id": 8,
+      "name": "Scared",
+      "icon": "😱",
+      "baseMood": "Scared"
+    },
+    {
+      "id": 26,
+      "name": "Lonely",
+      "icon": "🥺",
+      "baseMood": "Sad"
+    },
+    {
+      "id": 6,
+      "name": "Aware",
+      "icon": "👀",
+      "baseMood": "Joyful"
     }
   ]
 }
