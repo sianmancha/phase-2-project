@@ -7,4 +7,12 @@
 }
 .card {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    border-radius: 25px;
+    border: 2px solid #c3d5d6;
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+.icon {
+    font-size: 50px;
 }
