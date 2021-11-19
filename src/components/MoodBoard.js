@@ -14,6 +14,12 @@ function MoodBoard () {
     }, [])
     console.log(moods)
 
+    useEffect(() => {
+        fetch("http://localhost:6001/recordedMoods")
+        .then(res => res.json())
+        .then(data => setMoodRecords(data))
+    }, [])
+
     function handleAddMood(newMood) {
         setMoods([...moods, newMood])
     }
