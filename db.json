@@ -271,6 +271,66 @@
       "name": "Joyful",
       "icon": "😁",
       "baseMood": "Joyful"
+    },
+    {
+      "name": "Content",
+      "icon": "🙂",
+      "id": 2
+    },
+    {
+      "name": "Content",
+      "icon": "🙂",
+      "id": 3
+    },
+    {
+      "name": "Content",
+      "icon": "🙂",
+      "id": 4
+    },
+    {
+      "name": "Content",
+      "icon": "🙂",
+      "id": 5
+    },
+    {
+      "name": "Content",
+      "icon": "🙂",
+      "id": 6
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 7
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 8
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 9
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 10
+    },
+    {
+      "name": "Proud",
+      "icon": "😉",
+      "id": 11
+    },
+    {
+      "name": "Proud",
+      "icon": "😉",
+      "id": 12
+    },
+    {
+      "name": "Proud",
+      "icon": "😉",
+      "id": 13
     }
   ]
 }

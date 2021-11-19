@@ -6,6 +6,7 @@ import MoodRecord from "./MoodRecord"
 function MoodBoard () {
     const [moods, setMoods] = useState([]);
     const [listedMoods, setListedMoods] = useState([]);
+    const [moodRecords, setMoodRecords] = useState([])
 
     useEffect(() => {
         fetch("http://localhost:6001/moods")
@@ -20,12 +21,12 @@ function MoodBoard () {
 
     function handleAddRecord(aMood) {
         console.log(aMood)
-        setListedMoods([...listedMoods, aMood])
+        setMoodRecords([...moodRecords, aMood])
     }
     
     const displayMoods = moods.map(mood => <MoodCard key={mood.id} mood={mood} handleAddRecord={handleAddRecord} /> )
 
-    const recordedMoods = listedMoods.map(listedMood => <MoodRecord key={listedMood.id} mood={listedMood} setListedMoods={setListedMoods}/>)
+    const recordedMoods = moodRecords.map(listedMood => <MoodRecord key={listedMood.id} mood={listedMood} setMoodRecords={setMoodRecords}/>)
 
     return (
         <>
