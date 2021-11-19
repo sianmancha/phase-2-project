@@ -1,5 +1,5 @@
 import React from "react";
-import coffeemug from "../coffeemug.jpg"
+import coffeemug from "../coffeemug.jpeg"
 
 function Home() {
     return(

@@ -14,7 +14,7 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 25px;
-    color: #60819e
+    color: #2b4e6e
 }
 .title {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
@@ -30,6 +30,7 @@ body {
     width: 25px;
     height: 20px;
     margin: 3px; 
+
 }
 .icon {
     font-size: 20px;
@@ -85,6 +86,11 @@ body {
     
 }
 
+.wholeForm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .moodForm {
     display: flex;
     flex-direction: row;
@@ -97,7 +103,59 @@ body {
 .moodFormHeader {
     text-align: center;
 }
+.addMoodSubmit{
+    background-color: #60819e;
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+}
 
 .displayMoodsHeader {
     text-align: center;
+}
+
+.todoHeader {
+    text-align: center;
+}
+.todoFormHeader {
+    text-align: center;
+}
+.todoForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 50px;
+    justify-content: center;
+}
+.todoSubmit {
+    background-color: #60819e;
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+}
+.todoListHeader {
+    text-align: center;
+    padding-top: 50px;
+}
+.deleteButton {
+    background-color: #60819e;
+    color: white;
+    font-family: Garamond;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description {
+    font-weight: bold;
+    text-align: center;
+
+}
+.category {
+    text-align: center;
+    
+    
+}
+.todos {
+    text-align: center;
+    width: 100%;
+    color: #2b4e6e;
 }

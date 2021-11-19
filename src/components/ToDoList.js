@@ -1,5 +1,4 @@
 import react, {useEffect, useState} from "react";
-import Search from "./Search"
 import ToDoForm from "./ToDoForm";
 import ToDoCard from "./ToDoCard";
 
@@ -25,9 +24,9 @@ function ToDoList() {
 
     return (
         <div>
-            To-Do List
+            <h1 className="todoHeader">To-Do List </h1>
             <ToDoForm handleAddTodos={handleAddTodos}/>
-            <Search />
+            <h2 className="todoListHeader">Your To-Do List</h2>
             {displayTodos}
         </div>
     )

@@ -24,7 +24,7 @@ function MoodForm({handleAddMood}) {
     }
 
     return (
-        <div> 
+        <div className="wholeForm"> 
             <h3 className="moodFormHeader">Can't find the mood you're looking for? Add your own!</h3>
             <div>
             <form className="moodForm" onSubmit={(e) => handleSubmit(e)}>
@@ -44,7 +44,7 @@ function MoodForm({handleAddMood}) {
                     onChange={(e) => setIcon(e.target.value)}
                 >
                 </input>
-                <input type="submit" value="Add Mood"></input>
+                <input className="addMoodSubmit" type="submit" value="Add Mood"></input>
             </form>
             </div>
         </div>

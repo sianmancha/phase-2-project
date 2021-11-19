@@ -11,12 +11,16 @@ import React from "react";
     }
 
     return (
-    <>
-        <h2>Do them to-do's</h2>
+    <div className="todos">
+        <div className="description">
         {description}
+        </div>
+        <div className="category">
         {category}
-        <button onClick={handleDeleteClick}>🗑️</button>
-    </>
+        {/* <button className="deleteButton" onClick={handleDeleteClick}>Delete</button> */}
+        </div>
+        <button className="deleteButton" onClick={handleDeleteClick}>Delete</button>
+    </div>
     )
 }
 

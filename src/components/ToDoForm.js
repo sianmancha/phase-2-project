@@ -25,11 +25,11 @@ function ToDoForm({handleAddTodos}) {
 
     return (
         <div>
-            To Do Form
-            <form onSubmit={(e) => handleSubmit(e)}>
+            <h3 className="todoFormHeader">Add Something To Do:</h3>
+            <form className="todoForm" onSubmit={(e) => handleSubmit(e)}>
                 <input type="text" placeholder="To-Do Description" value={description} onChange={(e) => setDescription(e.target.value)}></input>
-                <input type="text" placeholder="category(e.g. chores, self-care, ect.)" name="category" value={category} onChange={(e) => setCategory(e.target.value)}></input>
-                <input type="submit"></input>
+                <input type="text" placeholder="Category (e.g. chores)" name="category" value={category} onChange={(e) => setCategory(e.target.value)}></input>
+                <input className="todoSubmit"type="submit"></input>
             </form>
         </div>
     )
