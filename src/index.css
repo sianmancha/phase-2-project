@@ -2,6 +2,7 @@
 body {
     margin: 0;
     background-color: aliceblue;
+    color: #60819e
 }
 
 .header {
@@ -13,9 +14,11 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 25px;
+    color: #60819e
 }
 .title {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    text-align: center;
 }
 .card {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
@@ -51,18 +54,25 @@ body {
     background-color: #b7d9f7;
     /* figure out margins */
     /* margin: 0% 25% 25% 0%; */
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
 }
 
 #coffeeImage {
     max-height: 200px;
 }
 
-#welcomeMessage {
+.recordedMoods {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 50px;
+    justify-content: center;
 
 }
-
-.intro {
-
+.recordedMoodsHeader {
+    text-align: center;
 }
 
 .welcomePage {
@@ -75,3 +85,19 @@ body {
     
 }
 
+.moodForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 50px;
+    justify-content: center;
+}
+.moodFormHeader {
+    text-align: center;
+}
+
+.displayMoodsHeader {
+    text-align: center;
+}

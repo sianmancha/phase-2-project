@@ -31,13 +31,17 @@ function MoodBoard () {
         <>
             <div>
                 <h1 className="title">Mood Board</h1>
-                <MoodForm handleAddMood= {handleAddMood}/>
+                <h3 className="displayMoodsHeader">How are you feeling today?</h3>
                 <div className="flex-box">
+                    {/* <h3>How are you feeling today?</h3> */}
                     {displayMoods}
                 </div>
+                <MoodForm handleAddMood= {handleAddMood}/>
             </div>
-            <div>
+            <h3 className="recordedMoodsHeader">Your Moods</h3>
+            <div className="recordedMoods">
                 {recordedMoods}
+                
             </div>
             
         </>

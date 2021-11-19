@@ -25,9 +25,9 @@ function MoodForm({handleAddMood}) {
 
     return (
         <div> 
-            <h3>Add a Custom Mood</h3>
+            <h3 className="moodFormHeader">Can't find the mood you're looking for? Add your own!</h3>
             <div>
-            <form onSubmit={(e) => handleSubmit(e)}>
+            <form className="moodForm" onSubmit={(e) => handleSubmit(e)}>
                 <input 
                     type="text" 
                     placeholder="Mood Name" 

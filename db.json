@@ -381,6 +381,176 @@
       "name": "Hopeful",
       "icon": "🤞",
       "id": 23
+    },
+    {
+      "name": "Sexy",
+      "icon": "💋",
+      "id": 24
+    },
+    {
+      "name": "Powerful",
+      "icon": "😎",
+      "id": 25
+    },
+    {
+      "name": "Faithful",
+      "icon": "😇",
+      "id": 26
+    },
+    {
+      "name": "Important",
+      "icon": "👑",
+      "id": 27
+    },
+    {
+      "name": "Hopeful",
+      "icon": "🤞",
+      "id": 28
+    },
+    {
+      "name": "Hopeful",
+      "icon": "🤞",
+      "id": 29
+    },
+    {
+      "name": "Appreciated",
+      "icon": "😊",
+      "id": 30
+    },
+    {
+      "name": "Content",
+      "icon": "🙂",
+      "id": 31
+    },
+    {
+      "name": "Thoughtful",
+      "icon": "🌝",
+      "id": 32
+    },
+    {
+      "name": "Intimate",
+      "icon": "😚",
+      "id": 33
+    },
+    {
+      "name": "Loving",
+      "icon": "😍",
+      "id": 34
+    },
+    {
+      "name": "Thoughtful",
+      "icon": "🌝",
+      "id": 35
+    },
+    {
+      "name": "Hurt",
+      "icon": "😢",
+      "id": 36
+    },
+    {
+      "name": "Thoughtful",
+      "icon": "🌝",
+      "id": 37
+    },
+    {
+      "name": "Hateful",
+      "icon": "👿",
+      "id": 38
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 39
+    },
+    {
+      "name": "Faithful",
+      "icon": "😇",
+      "id": 40
+    },
+    {
+      "name": "Important",
+      "icon": "👑",
+      "id": 41
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 42
+    },
+    {
+      "name": "Critical",
+      "icon": "😑",
+      "id": 43
+    },
+    {
+      "name": "Guilty",
+      "icon": "😕",
+      "id": 44
+    },
+    {
+      "name": "Ashamed",
+      "icon": "😔",
+      "id": 45
+    },
+    {
+      "name": "Depressed",
+      "icon": "😭",
+      "id": 46
+    },
+    {
+      "name": "Bored",
+      "icon": "😐",
+      "id": 47
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 48
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 49
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 50
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 51
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 52
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 53
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 54
+    },
+    {
+      "name": "Helpless",
+      "icon": "😣",
+      "id": 55
+    },
+    {
+      "name": "Ashamed",
+      "icon": "😔",
+      "id": 56
+    },
+    {
+      "name": "Depressed",
+      "icon": "😭",
+      "id": 57
     }
   ]
 }
