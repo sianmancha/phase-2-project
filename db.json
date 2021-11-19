@@ -361,6 +361,26 @@
       "name": "Respected",
       "icon": "🤝",
       "id": 19
+    },
+    {
+      "name": "Creative",
+      "icon": "🎨",
+      "id": 20
+    },
+    {
+      "name": "Hateful",
+      "icon": "👿",
+      "id": 21
+    },
+    {
+      "name": "Depressed",
+      "icon": "😭",
+      "id": 22
+    },
+    {
+      "name": "Hopeful",
+      "icon": "🤞",
+      "id": 23
     }
   ]
 }

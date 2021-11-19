@@ -19,7 +19,7 @@ body {
 }
 .card {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-    text-align: right;
+    text-align: center;
     font-size: 10px;
     border-radius: 20px;
     border: 2px solid #c3d5d6;
@@ -33,10 +33,7 @@ body {
 }
 .name {
     text-align: center;
-    /* margin: auto; */
-    padding: 0px;
-    width: 25px;
-    height: 10px;
+    margin-left: -10px;
 }
 
 .flex-box {
@@ -46,6 +43,7 @@ body {
     margin-left: 75px;
     margin-right: 75px;
   }
+
 
 .navbar {
     width: auto;

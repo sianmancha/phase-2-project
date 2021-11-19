@@ -22,7 +22,7 @@ function MoodCard({mood: {id, name, icon, baseMood}, handleAddRecord, mood, setM
     }
 
     return (
-        <div className="card" onClick={() => handleAddClick(mood)}>
+        <div  className="card" onClick={() => handleAddClick(mood)}>
             <div className="icon">
                 {icon}
             </div>
