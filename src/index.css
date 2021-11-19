@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    background-color: aliceblue;
 }
 
 .header {
@@ -8,7 +9,7 @@ body {
     font-size: 50px;
     width: auto;
     text-align: center;
-    background-color: lightgrey;
+    background-color: aliceblue;
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 25px;
@@ -18,30 +19,61 @@ body {
 }
 .card {
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-    text-align: center;
+    text-align: right;
     font-size: 10px;
     border-radius: 20px;
     border: 2px solid #c3d5d6;
     padding: 20px;
-    width: 20px;
+    width: 25px;
     height: 20px;
     margin: 3px; 
 }
 .icon {
     font-size: 20px;
 }
+.name {
+    text-align: center;
+    /* margin: auto; */
+    padding: 0px;
+    width: 25px;
+    height: 10px;
+}
 
 .flex-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
   }
 
 .navbar {
     width: auto;
     align-items: center;
+    background-color: #b7d9f7;
     /* figure out margins */
-    margin: 0% 25% 25% 0%;
+    /* margin: 0% 25% 25% 0%; */
 }
+
+#coffeeImage {
+    max-height: 200px;
+}
+
+#welcomeMessage {
+
+}
+
+.intro {
+
+}
+
+.welcomePage {
+    margin-top: 50px, 0px, 0px, 0px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: Garamond;
+    
+    
+}
+

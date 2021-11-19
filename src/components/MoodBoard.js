@@ -5,7 +5,6 @@ import MoodRecord from "./MoodRecord"
 
 function MoodBoard () {
     const [moods, setMoods] = useState([]);
-    const [listedMoods, setListedMoods] = useState([]);
     const [moodRecords, setMoodRecords] = useState([])
 
     useEffect(() => {

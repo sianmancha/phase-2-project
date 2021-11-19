@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 const linkStyles = {
     display: "inline-block",
     width: "auto",
-    padding: "10px 20px",
-    margin: "0 6px 6px",
-    background: "pink",
+    padding: "5px 20px",
+    margin: "0px",
+    background: "#b7d9f7",
     textDecoration: "none",
     color: "white",
     fontWeight: "bold",
@@ -21,7 +21,7 @@ const linkStyles = {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "turquoise",
+            background: "#60819e",
           }}
         >
           Home
@@ -31,7 +31,7 @@ const linkStyles = {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "turquoise",
+            background: "#60819e",
           }}
         >
           Mood Board
@@ -41,7 +41,7 @@ const linkStyles = {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "turquoise",
+            background: "#60819e",
           }}
         >
           To-Do List 
