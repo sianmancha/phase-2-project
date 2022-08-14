@@ -15,7 +15,7 @@ function MoodBoard () {
     console.log(moods)
 
     useEffect(() => {
-        fetch("http://localhost:6001/recordedMoods")
+        fetch("http://moods-and-todos.herokuapp.com/recordedMoods")
         .then(res => res.json())
         .then(data => setMoodRecords(data))
     }, [])
