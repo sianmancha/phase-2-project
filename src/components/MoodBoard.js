@@ -8,14 +8,14 @@ function MoodBoard () {
     const [moodRecords, setMoodRecords] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:6001/moods")
+        fetch("http://moods-and-todos.herokuapp.com/moods")
         .then(res => res.json())
         .then(data => setMoods(data))
     }, [])
     console.log(moods)
 
     useEffect(() => {
-        fetch("http://localhost:6001/recordedMoods")
+        fetch("http://moods-and-todos.herokuapp.com/recordedMoods")
         .then(res => res.json())
         .then(data => setMoodRecords(data))
     }, [])
