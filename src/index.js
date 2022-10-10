@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import { BrowserRouter } from "react-router-dom"
 import "./index.css"
-
+// import { Authenticator } from '@aws-amplify/ui-react';
+// import '@aws-amplify/ui-react/styles.css';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    {/* <Authenticator> */}
+      <App />
+    {/* </Authenticator> */}
   </BrowserRouter>,
   document.getElementById("root")
 );
@@ -18,5 +21,4 @@ ReactDOM.render(
 //     </BrowserRouter>, 
 //   document.getElementById('root')
 // );
-
 

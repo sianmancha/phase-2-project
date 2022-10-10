@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moodtracker-dev-120026-authRole",
+      "UnauthRoleArn": "arn:aws:iam::363299724712:role/amplify-moodtracker-dev-120026-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::363299724712:role/amplify-moodtracker-dev-120026-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-moodtracker-dev-120026-deployment",
+      "UnauthRoleName": "amplify-moodtracker-dev-120026-unauthRole",
+      "StackName": "amplify-moodtracker-dev-120026",
+      "StackId": "arn:aws:cloudformation:us-east-1:363299724712:stack/amplify-moodtracker-dev-120026/e119e8b0-47f3-11ed-9465-1231c66b446f",
+      "AmplifyAppId": "dwtxzqvk6thdt"
+    },
+    "categories": {
+      "auth": {
+        "moodtracker0fb76ac0": {}
+      }
+    }
+  }
+}
